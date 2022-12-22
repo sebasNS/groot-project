@@ -129,20 +129,8 @@
               </execution>
             </executions>
           </plugin>
-        </plugins>	
+        </plugins>
+        <finalName>groot-integration</finalName>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>ssh-clasweb</id>
-            <url>scpexe://clas12@jlabl1.jlab.org/group/clas/www/clasweb/html/clas12maven</url>
-        </repository>
-    </distributionManagement>
-<!--
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
--->
 
 </project>
